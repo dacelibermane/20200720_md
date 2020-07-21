@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+</head>
+<body>
+	<div class="container">
+		<header>
+            <h1>Header</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>Link 1</li>
+				<li>Link 2</li>
+				<li>Link 3</li>
+				<li>Link 4</li>
+			</ul>
+		</nav>
+		<main>
+			<aside class="left">
+				<h2>Aside left</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusamus, eaque. Aperiam culpa voluptatibus, rem praesentium alias incidunt repudiandae sint nulla dicta illum accusamus eaque placeat. Debitis, animi accusantium explicabo aspernatur? Blanditiis dolore magnam accusantium hic odio, quas eaque fugiat.</p>
+			</aside>
+			<article>
+				<h2>Article</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorem quia dolorum quibusdam doloremque excepturi quidem laboriosam aperiam. Doloribus, corporis, minima facilis numquam, accusantium earum asperiores placeat in sint iste, aliquam molestias magni dicta! Nam ipsam in neque quam rerum eos nulla modi numquam officiis animi debitis esse doloribus ab officia asperiores, eveniet, inventore necessitatibus distinctio aspernatur. Blanditiis, minima in!</p>
+			</article>
+			<aside class="right">
+				<h2>Aside right</h2>
+				<div id="time">00:00:00</div>
+				<div id="city"></div>
+                <div id="temp"></div>
+                 <hr><br>
+				<div class="butts">
+					<button class="mybtns" data-age="70">Button 1</button>
+					<button class="mybtns" data-age="75">Button 2</button>
+					<button class="mybtns" data-age="80">Button 3</button>
+					<button class="mybtns" data-age="85">Button 4</button>
+					<button class="mybtns" data-age="90">Button 5</button>
+					<button class="mybtns" onclick="showWindow(-1)">Aizvērt</button>
+				</div>
+			</aside>
+			<div style="clear: both;"></div>
+		</main>
+		<footer>
+			<h2>Footer</h2>
+		</footer>
+	</div>
+
+	<div class="windows" id="witem1">
+        <h2 class="w-100 text-center mt-2">Skropstu laminēšana</h2> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quo minima quisquam nam magnam ab deserunt laborum omnis, voluptates harum exercitationem neque reprehenderit sed laudantium? Ea officiis incidunt sint odio iure laboriosam recusandae, consectetur corrupti, similique omnis modi ex sequi fugiat vero facere magnam dicta necessitatibus, numquam quisquam nulla.</p>
+	</div>
+	<div class="windows" id="witem2">
+        <h2 class="w-100 text-center mt-2">Skropstas</h2> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quo minima quisquam nam magnam ab deserunt laborum omnis, voluptates harum exercitationem neque reprehenderit sed laudantium? Ea officiis incidunt sint odio iure laboriosam recusandae, consectetur corrupti, similique omnis modi ex sequi fugiat vero facere magnam dicta necessitatibus, numquam quisquam nulla.</p>
+	</div>
+	<div class="windows" id="witem3">
+        <h2 class="w-100 text-center mt-2">Kas es esmu?</h2> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quo minima quisquam nam magnam ab deserunt laborum omnis, voluptates harum exercitationem neque reprehenderit sed laudantium? Ea officiis incidunt sint odio iure laboriosam recusandae, consectetur corrupti, similique omnis modi ex sequi fugiat vero facere magnam dicta necessitatibus, numquam quisquam nulla.</p>
+	</div>
+	<div class="windows" id="witem4">
+        <h2 class="w-100 text-center mt-2">Kāpēc higiēna ir obligāts noteikums vizāžista darbā?</h2> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quo minima quisquam nam magnam ab deserunt laborum omnis, voluptates harum exercitationem neque reprehenderit sed laudantium? Ea officiis incidunt sint odio iure laboriosam recusandae, consectetur corrupti, similique omnis modi ex sequi fugiat vero facere magnam dicta necessitatibus, numquam quisquam nulla.</p>
+	</div>
+	<div class="windows" id="witem5">
+        <h2 class="w-100 text-center mt-2">Kā ar mani sazināties?</h2> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quo minima quisquam nam magnam ab deserunt laborum omnis, voluptates harum exercitationem neque reprehenderit sed laudantium? Ea officiis incidunt sint odio iure laboriosam recusandae, consectetur corrupti, similique omnis modi ex sequi fugiat vero facere magnam dicta necessitatibus, numquam quisquam nulla.</p>
+		<button class="btn btn-info btn-w-close" onclick="showWindow(-1)">Aizvērt</button>
+</div>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/weather.js"></script>
+</body>
+</html>
